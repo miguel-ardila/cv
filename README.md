@@ -7,7 +7,7 @@
 
 ## Otros proyectos
 
-📚 [Todos mis proyectos][projects]
+📚 [Todos mis proyectos][Repository]
 
 
 ## Feedback
@@ -19,3 +19,4 @@ Happy Coding! ✨🚀
 
 [projects]: https://github.com/miguel-ardila
 [wc-lk-group]: https://www.linkedin.com/in/miguel-ardila-bbb725210/
+[Repository]: https://github.com/miguel-ardila?tab=repositories
