@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Mononoki Nerd Font Mono;
   line-height: 1.6;
   color: #333;
   margin: 0;
@@ -64,3 +64,21 @@ p {
   border-radius: 4px;
   width: 0;
 }
+
+/* Estilos para el botón */
+.language-button {
+  display: inline-block;
+  padding: 4px 4px;
+  background-color: #14857f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-button:hover {
+  background-color: #45a049;
+}
+
