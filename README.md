@@ -5,7 +5,7 @@
 ---
 ### Hecho con ❤️ por [Miguel Ardila][projects]
 
-## Other projects
+## Otros proyectos
 
 📚 [Todos mis proyectos][projects]
 
