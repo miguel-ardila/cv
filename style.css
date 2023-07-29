@@ -72,13 +72,13 @@ p {
   background-color: #14857f;
   color: #fff;
   border: none;
-  border-radius: 8px;
-  font-size: 15px;
+  border-radius: 6px;
+  font-size: 22px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .language-button:hover {
-  background-color: #45a049;
+  background-color: #189b94;
 }
 
