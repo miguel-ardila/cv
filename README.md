@@ -1,6 +1,6 @@
 ## HTML CSS CV
  
-¡Currículum simple en HTML CSS solamente!
+¡Currículum simple en HTML CSS!
 
 ---
 ### Hecho con ❤️ por [Miguel Ardila][projects]
