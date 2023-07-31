@@ -86,7 +86,7 @@ p {
   background-color: #22d4f3;
 }
 
-/* Estilo para centrar el video */
+/* Estilo para centrar el git */
 .video-container {
   display: flex;
   justify-content: center;
@@ -94,8 +94,17 @@ p {
   height: 10vh; /* Ajusta la altura según tus necesidades */
 }
 
-/* Estilo para ajustar el tamaño del video */
-.video-container video {
-  max-width: 100%;
-  max-height: 100%;
+/* Estilos para el nuevo contenedor */
+.code-git {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh; /* Ajusta la altura según tus necesidades */
+  
+}
+
+/* Estilo para la imagen */
+.code-git img {
+  max-width: 70%; /* Ajusta el ancho máximo según tus necesidades */
+  max-height: 100%; /* Ajusta el alto máximo según tus necesidades */
 }
