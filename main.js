@@ -20,3 +20,6 @@ function toggleLanguage() {
     document.getElementById("skills").innerHTML = '<!-- Habilidades en inglés -->';
     }
 }
+
+
+console.log("hi! i am miguel! ");
