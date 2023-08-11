@@ -70,23 +70,13 @@ p {
 }
 
 /* Estilos para el botón */
-.language-button {
-  display: inline-block;
-  padding: 4px 4px;
-  background-color: #b12292;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 22px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
+
 
 .language-button:hover {
   background-color: #22d4f3;
 }
 
-/* Estilo para centrar el git */
+/* Estilo para centrar el gif */
 .video-container {
   display: flex;
   justify-content: center;
