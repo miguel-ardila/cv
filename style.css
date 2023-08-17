@@ -21,7 +21,7 @@ h1 {
 }
 .dev{
   text-align: center;
-  color: #D8594D;
+  color: #dbd936;
 }
 h2 {
   font-size: 28px;
@@ -68,23 +68,7 @@ p {
   border-radius: 4px;
   width: 0;
 }
-
-/* Estilos para el botón */
-
-
-.language-button:hover {
-  background-color: #22d4f3;
-}
-
-/* Estilo para centrar el gif */
-.video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh; /* Ajusta la altura según tus necesidades */
-}
-
-/* Estilos para el nuevo contenedor */
+/* Estilos para la animacion de gif */
 .code-git {
   display: flex;
   justify-content: center;
