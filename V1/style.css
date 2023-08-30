@@ -1,0 +1,84 @@
+body {
+  font-family: Mononoki Nerd Font Mono;
+  line-height: 1.6;
+  color: #8488B4;
+  margin: 0;
+  padding: 0;
+  background-color: #4a4d55;
+}
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #262435;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.815);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.dev{
+  text-align: center;
+  color: #dbd936;
+}
+h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #8488B4
+}
+p {
+  margin: 0;
+  color: #e7d95c;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section:last-child {
+  margin-bottom: 0;
+}
+.contact-info {
+  margin-bottom: 10px;
+}
+
+
+/* Estilos para las habilidades */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill {
+  background-color: #14857f;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+.skill-progress {
+  background-color: #ddd;
+  height: 18px;
+  border-radius: 4px;
+  width: 100%;
+}
+.skill-progress-bar {
+  background-color: #b9b4b4;
+  height: 100%;
+  border-radius: 4px;
+  width: 0;
+}
+/* Estilos para la animacion de gif */
+.code-git {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh; /* Ajusta la altura según tus necesidades */
+  
+}
+
+/* Estilo para la imagen */
+.code-git img {
+  max-width: 70%; /* Ajusta el ancho máximo según tus necesidades */
+  max-height: 100%; /* Ajusta el alto máximo según tus necesidades */
+}
