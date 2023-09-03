@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --priary-color: #ff7613;
+    --text-color: #727171;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Inter,sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* estilos comunes */
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.description {
+    
+}
