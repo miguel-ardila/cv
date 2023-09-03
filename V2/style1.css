@@ -107,3 +107,46 @@ a {
         flex-direction: column;
     }
 }
+
+/* profile */
+.profile_container {
+    display: flex;
+    gap: 2rem;
+}
+.profile_profileImg{
+    max-width: 250px;
+}
+.profile_name_firstName {
+    color: white;
+    font-weight: 200;
+    font-size: clamp(2rem, 8vm, 4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+.profile_name_lastName {
+    color: var(--priary-color);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 4vm, 7rem);
+    text-transform: uppercase;
+    display: block;
+}
+.profile_title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.downloadBtn {
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.downloadBtn:hover {
+    color: var(--priary-color);
+}
+@media only screen and (min-width: 768px){
+    .profile_container {
+        flex-direction: column;
+    }
+}
