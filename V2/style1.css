@@ -58,3 +58,52 @@ a {
     font-weight: 400;
 }
 
+/* layouts */
+.header {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: #070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+@media only screen and (max-width: 768px){
+    .header{
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 7rem;
+    }
+}
+.profile {
+    grid-column: 1 /-1;
+    margin-bottom: 2rem;
+}
+.group-1,
+.group-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.group-3 {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.group-3 > div {
+    flex: 1;
+}
+@media only screen and (max-width: 768px) {
+    .profile {
+        margin-bottom: 0;
+    }
+    .group-3 {
+        flex-direction: column;
+    }
+}
