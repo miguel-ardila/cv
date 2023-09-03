@@ -30,5 +30,31 @@ a {
     color: white;
 }
 .description {
-    
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color)
 }
+ .title {
+    color: var(--priary-color);
+    font-weight: 700%;
+    font-size: 2rem;
+    text-transform: uppercase;
+ }
+ .item_preTitle {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 300;
+ }
+.item_title {
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    margin: 0.8rem 0;
+}
+.item_subtitle {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
