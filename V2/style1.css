@@ -157,3 +157,17 @@ a {
     margin-left: 2rem;
     line-height: 2;
 }
+
+/* ref */
+.ref_item {
+    margin-top: 2rem;
+}
+.ref_name {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* Eduction */
+.edu_item {
+    margin-top: 2rem;
+}
