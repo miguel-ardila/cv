@@ -204,3 +204,22 @@ a {
     width: 2rem;
 }
 
+/* socials */
+.social_items {
+    margin-top: 2.5rem;
+}
+.social_item {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--text-color);
+}
+.social_item:hover {
+    color: var(--priary-color);
+}
+.social_item svg {
+    width: 2rem;
+}
