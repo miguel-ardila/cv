@@ -114,8 +114,8 @@ a {
     display: flex;
     gap: 2rem;
 }
-.profile_profileImg{
-    max-width: 250px;
+.profile_image{
+    max-width: 280px;
 }
 .profile_name_firstName {
     color: white;
