@@ -3,42 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Miguel Ardila - Hoja de Vida</title>
     <link rel="stylesheet" href="./style1.css">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <header class="header">
-        <!--Perfil-->
-        <div class="profile">
-            <div class="profile_container">
-                <div class="profile_image">
-                    <img src="./assets/profileImage.png" alt="Miguel Ardila">
-                </div>
-                <div class="profile_info">
-                    <div class="profile_name">
-                        <h1>
-                            <span class="profile_name_firstName">Miguel</span>
-                            <span class="profile_name_lastName">Ardila</span>
-                        </h1>
-                        <p class="profile_title">Desarrollador Frontend Junior</p>
-                    </div>
-                    <div class="profile_description">
-                        <p class="description_profile_description">
-                            Soy un programador junior apasionado por la tecnología y el desarrollo web. Mi objetivo es contribuir de manera proactiva en proyectos desafiantes mientras sigo aprendiendo y mejorando mis habilidades. Poseo una base sólida en conceptos de programación y estoy ansioso por aplicar mis conocimientos en un entorno profesional. Además, cuento con experiencia práctica en el desarrollo y personalización de tiendas en línea a través de la plataforma Shopify.
-                        </p>
-                    </div>
-                    <a class="downloadBtn" href="./assets/cv.pdf" download="cv.pdf">Descargar currículum</a>
-                </div>
+
+    <div class="container">
+    <!--Perfil-->
+    <header>
+        <section class="profile">
+            <figure class="profile_container">
+                <img src="./assets/profileImage.png" alt="Miguel Ardila - Foto de perfil">
+                <figcaption class="profile_info">
+                    <h1>
+                        <span class="profile_name_firstName">Miguel</span>
+                        <span class="profile_name_lastName">Ardila</span>
+                    </h1>
+                    <p class="profile_title">Desarrollador Frontend Junior</p>
+                </figcaption>
+            </figure>
+            <br>
+            <div class="profile_description">
+                <p class="description_profile_description">
+                    Soy un programador junior apasionado por la tecnología y el desarrollo web. Mi objetivo es contribuir de manera proactiva en proyectos desafiantes mientras sigo aprendiendo y mejorando mis habilidades. Poseo una base sólida en conceptos de programación y estoy ansioso por aplicar mis conocimientos en un entorno profesional. Además, cuento con experiencia práctica en el desarrollo y personalización de tiendas en línea a través de la plataforma Shopify.
+                </p>
             </div>
-        </div>
-        
+            <a class="downloadBtn" href="./assets/cv.pdf" download="Miguel_Ardila_CV.pdf">Descargar currículum</a>
+        </section>
+    </header>
+     <!-- Contacto -->
+     <section id="contact">
+        <address class="contact">
+            <h2 class="title">Contacto</h2>
+            <div class="contact_info">
+                <p class="description">
+                    Bogotá, Colombia
+                </p>
+                <p class="description">
+                    +54 3042376954
+                </p>
+                <p class="description">
+                    <a href="mailto:miguel_sxe@hotmail.com">miguel_sxe@hotmail.com</a>
+                </p>
+            </div>
+        </address>
+    </section>
+
     <main>
-        <!--tecnologias-->
+        <!-- Tecnologias -->
         <section id="expertise">
             <div class="skills">
-                <h2 class="title">Tecnologias</h2>
-                <ul class="skills_list description">
+                <h2 class="title">Tecnologías</h2>
+                <ul class="skills_list">
                     <li>JavaScript</li>
                     <li>Shopify</li>
                     <li>HTML CSS</li>
@@ -52,17 +69,17 @@
                 </ul>
             </div>
         </section>
-        <!-- referencias -->
+        <!-- Referencias -->
         <section id="reference">
             <div class="ref">
-                <h2 class="title">Referencia</h2>
+                <h2 class="title">Referencias</h2>
                 <div class="ref_item">
                     <h3 class="ref_name">Steven Sierra</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, neque?</p>
                 </div>
                 <div class="ref_item">
                     <h3 class="ref_name">Santiago Guerra</h3>
-                    <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                    <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
             </div>
         </section>
@@ -81,18 +98,17 @@
                     <p class="item_subtitle">Plazi</p>
                     <p class="item_preTitle">2022-2022</p>
                 </div>
-                </div>
             </div>
         </section>
 
         <!-- Certificados -->
         <section id="certification">
             <div class="certification">
-                <h2 class="title">Certification</h2>
+                <h2 class="title">Certificación</h2>
                 <div class="certification_item">
-                    <p class="item_preTitle">2018</p>
+                    <time class="item_preTitle" datetime="2018">2018</time>
                     <h3 class="item_title">Frontend Developer</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
             </div>
         </section>
@@ -102,44 +118,29 @@
             <div class="exp">
                 <h2 class="title">Experiencia</h2>
                 <div class="exp_item">
-                    <p class="item_preTitle">2019 - present</p>
+                    <time class="item_preTitle" datetime="2019-present">2019 - present</time>
                     <h3 class="item_title">Rashid Software LTD.</h3>
                     <p class="item_subtitle">Frontend Developer</p>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
                 <div class="exp_item">
-                    <p class="item_preTitle">2019 - present</p>
+                    <time class="item_preTitle" datetime="2019-present">2019 - present</time>
                     <h3 class="item_title">Rashid Software LTD.</h3>
                     <p class="item_subtitle">Frontend Developer</p>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
             </div>
         </section>
     </main>
-    <section id="contact">
-        <div class="contact">
-            <h2 class="title">Contacto</h2>
-            <div class="contact_info">
-                <p class="description">
-                    Bogota, Colombia
-                </p>
-                <p class="description">
-                    +54 3042376954
-                </p>
-                <p class="description">
-                    miguel_sxe@hotmail.com
-                </p>
-            </div>
-        </div>
-    </section>
+   
 
     <footer>
         <!-- Enlaces  -->
-        <section id="social">
+        <nav id="social">
             <div class="social">
                 <h2 class="title">Enlaces</h2>
                 <div class="social_items">
-                    <a href="https://github.com/miguel-ardila/" target="_b" class="social_item">
+                    <a href="https://github.com/miguel-ardila/" target="_blank" class="social_item">
                         <i data-feather="github"></i>
                         <span> GitHub</span>
                     </a>
@@ -149,11 +150,11 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </nav>
     </footer>
-</header>
-    <script>
-        feather.replace()
-      </script>
+</div>
+<script>
+    feather.replace()
+</script>
 </body>
 </html>
