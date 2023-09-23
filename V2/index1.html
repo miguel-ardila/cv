@@ -8,32 +8,41 @@
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
+
     <div class="container">
     <!--Perfil-->
-    <div class="header">
-        <div class="profile">
-            <div class="profile_container">
-                <img src="./assets/profileImage.png" alt="Miguel Ardila - Foto de perfil" class="profile_image">
-                <div class="profile_info">
-                    <h1 class="profile_name">
-                        <span class="profile_name_firstName">Miguel</span>
-                        <span class="profile_name_lastName">Ardila</span>
-                    </h1>
-                    <p class="profile_title">Desarrollador Frontend Junior</p>
-                </div>
+    <div class="profile">
+        <div class="profile_container">
+            <div class="profile_profileImg">
+                <img src="./assets/profileImage.png" alt="Miguel Ardila">
             </div>
-        </div>
-        <div class="profile_description">
+            <div>
+            <h1 class="profile_name">
+                <span class="profile_name_firstName">Miguel</span>
+                <span class="profile_name_lastName">Ardila</span>
+            </h1>
+            <p class="profile_title">Desarrollador Frontend Junior</p>
             <p class="description_profile_description">
-                Soy un programador junior apasionado por la tecnología y el desarrollo web. <br> Mi objetivo es contribuir de manera proactiva en proyectos desafiantes mientras sigo aprendiendo y mejorando mis habilidades. <br>  Poseo una base sólida en conceptos de programación y estoy ansioso por aplicar mis conocimientos en un entorno profesional. <br> Además, cuento con experiencia práctica en el desarrollo y personalización de tiendas en línea a través de la plataforma Shopify.
+                Soy un programador junior apasionado por la tecnología y el desarrollo web. <br> 
+                Mi objetivo es contribuir de manera proactiva en proyectos desafiantes mientras sigo aprendiendo y mejorando mis habilidades. <br> 
+                Poseo una base sólida en conceptos de programación y estoy ansioso por aplicar mis conocimientos en un entorno profesional. <br> 
+                Además, cuento con experiencia práctica en el desarrollo y personalización de tiendas en línea a través de la plataforma Shopify.
             </p>
+            <a id="downloadLink">
+                <span>Download Resume</span>
+                <i class="downloadBtn" data-feather="download" width="20" height="16"></i>
+            </a>
+            
+            
+            
         </div>
-        <a class="downloadBtn" href="./assets/cv.pdf" download="Miguel_Ardila_CV.pdf">Descargar currículum</a>
     </div>
+</div>
+
     
     <!-- Experiencia -->
-    <section id="experience">
-        <div class="exp">
+    <div class ="experience">
+        <div class ="exp">
             <h2 class="title">Experiencia</h2>
             <div class="exp_item">
                 <h3 class="item_title">Freelance</h3>
@@ -67,12 +76,12 @@
                 </ul>
             </div>
         </div>
-    </section>
+    
 </main>
 <!-- Educacion -->
 <section id="education">
     <div class="edu">
-        <h2 class="title">Formación</h2>
+        <h3 class="title">Formación</h3>
         <div class="edu_item">
             <h3 class="item_title">Curso Profesional de Git y GitHub</h3>
             <p class="item_subtitle">Platzi</p>
@@ -87,13 +96,13 @@
 </section>
 
 <!-- Tecnologias -->
-<section id="expertise">
+<div id="expertise">
     <div class="skills">
-        <h2 class="title">Tecnologías</h2>
+        <h3 class="title">Tecnologías</h3>
         <ul class="skills_list">
             <li>JavaScript</li>
             <li>Shopify</li>
-            <li>HTML CSS</li>
+            <li>HTML & CSS</li>
             <li>React JS</li>
             <li>Git - GitHub</li>
             <li>Figma</li>
@@ -101,14 +110,35 @@
             <li>Docker</li>
             <li>Node.js</li>
             <li>Affinity Designer</li>
+            <li>Windows 11 Copilot</li>
         </ul>
     </div>
-</section>
+</div>
 
-     <!-- Contacto -->
-     <section id="contact">
-        <address class="contact">
-            <h2 class="title">Contacto</h2>
+     
+    
+    <!-- Referencias -->
+    <div class="reference">
+        <h3 class="title">Referencias</h3>
+        <div class="ref_item">
+            <h4 class="ref_name">Steven Sierra</h4>
+            <p class="description">Software Engineer <br>
+                Phone: +49 15754897462 <br>
+                Email: stevensierra.dev@gmail.com</p>
+        </div>
+        <div class="ref_item">
+            <h4 class="ref_name">Santiago Guerra</h4>
+            <p class="description"> Software Developer <br>
+                Phone: +57 3103200308 <br>
+                Email: guerrasantiago19@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- Contacto -->
+    <hr>
+    <div class ="group-3">
+        <div class="contact">
+            <h3 class="title">Contacto</h3>
             <div class="contact_info">
                 <p class="description">
                     Bogotá, Colombia
@@ -120,49 +150,28 @@
                     <a href="mailto:miguel_sxe@hotmail.com">miguel_sxe@hotmail.com</a>
                 </p>
             </div>
-        </address>
-    </section>
-
-        
-        <!-- Referencias -->
-        <section id="reference">
-            <div class="ref">
-                <h2 class="title">Referencias</h2>
-                <div class="ref_item">
-                    <h3 class="ref_name">Steven Sierra</h3>
-                    <p class="description">Software Engineer <br>
-                        Phone: +49 15754897462 <br>
-                        Email: stevensierra.dev@gmail.com</p>
-                </div>
-                <div class="ref_item">
-                    <h3 class="ref_name">Santiago Guerra</h3>
-                    <p class="description"> Software Developer <br>
-                        Phone: +57 3103200308 <br>
-                        Email: guerrasantiago19@gmail.com</p>
-                </div>
-            </div>
-        </section>
-    <!-- Enlaces  -->
-    <footer>
-        <div id="social">
-            <div class="social">
-                <h2 class="title">Enlaces</h2>
-                <div class="social_items">
-                    <a href="https://github.com/miguel-ardila/" target="_blank" class="social_item">
-                        <i data-feather="github"></i>
-                        <span> GitHub</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/miguel-ardila-bbb725210/" target="_blank" class="social_item">
-                        <i data-feather="linkedin"></i>
-                        <span> Linkedin</span>
-                    </a>
-                </div>
-            </div>
         </div>
-    </footer>
-</div>
+    </div>
+
+    <!-- Enlaces  -->
+    <div class="social">
+        <h3 class="title">Enlaces</h3>
+        <div class="social_items">
+            <a href="https://github.com/miguel-ardila/" target="_blank" class="social_item">
+                <i data-feather="github"></i>
+                <span> GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/miguel-ardila-bbb725210/" target="_blank" class="social_item">
+                <i data-feather="linkedin"></i>
+                <span> Linkedin</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    </div>
 <script>
     feather.replace()
 </script>
+<script src="main.js"></script>
 </body>
 </html>
