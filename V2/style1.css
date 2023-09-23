@@ -11,24 +11,26 @@
 }
 
 html {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Inter, sans-serif;
     background-color: black;
     color: white;
 }
 
-/* estilos comunes */
+/* estilo imagen */
 img {
-    width: 30%;
+    width: 40%;
     border-radius: 50%;
 }
 a {
     text-decoration: none;
     color: white;
 }
+
+/* Referencias */
 .description {
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -41,6 +43,15 @@ a {
     font-size: 2rem;
     text-transform: uppercase;
  }
+ .ref_item {
+    margin-top: 2rem;
+}
+.ref_name {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+ /* Educacion */
  .item_preTitle {
     font-size: 1.4rem;
     color: var(--text-color);
@@ -56,6 +67,9 @@ a {
     font-size: 1.4rem;
     color: var(--text-color);
     font-weight: 400;
+}
+.edu_item {
+    margin-top: 2rem;
 }
 
 /* layouts */
@@ -77,12 +91,14 @@ a {
         gap: 7rem;
     }
 }
+
+
 .profile {
     grid-column: 1 /-1;
     margin-bottom: 2rem;
 }
-.group-1,
-.group-2 {
+.expertise,
+.experience {
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -114,15 +130,11 @@ a {
     gap: 2rem;
     align-items: flex-start;
 }
-.profile_image{
-    max-width: 100px;
-    margin-right: 20px;
-}
 
 .profile_name_firstName {
     color: white;
     font-weight: 200;
-    font-size: clamp(2rem, 8vm, 4rem);
+    font-size: clamp(2rem, 8vw, 3rem);
     text-transform: uppercase;
     display: block;
     margin-bottom: -0.8rem;
@@ -130,7 +142,7 @@ a {
 .profile_name_lastName {
     color: var(--priary-color);
     font-weight: 700;
-    font-size: clamp(2.5rem, 4vm, 7rem);
+    font-size: clamp(2.5rem, 15vw, 4rem);
     text-transform: uppercase;
     display: block;
 }
@@ -140,11 +152,24 @@ a {
     text-transform: uppercase;
 }
 .downloadBtn {
-    display: block;
-    text-decoration: underline;
-    font-size: 1.6rem;
+    display: inline-block;
     margin-top: 1rem;
+    position: relative;
 }
+
+.downloadBtn span {
+    font-size: 1.6rem; /* Ajusta el tamaño del texto aquí */
+}
+
+
+.downloadBtn i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
 .downloadBtn:hover {
     color: var(--priary-color);
 }
@@ -162,19 +187,6 @@ a {
     color: var(--text-color);
 }
 
-/* ref */
-.ref_item {
-    margin-top: 2rem;
-}
-.ref_name {
-    font-size: 1.6rem;
-    font-weight: 700;
-}
-
-/* Eduction */
-.edu_item {
-    margin-top: 2rem;
-}
 /* certification */
 .certification_item{
     margin-top: 2rem;
@@ -202,4 +214,19 @@ a {
 }
 .social_item svg {
     width: 2rem;
+}
+
+hr {
+	grid-column: 1/-1;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	border: none;
+	border-top: 2px solid rgba(128, 128, 128, 0.229);
+}
+@media only screen and (max-width: 768px) {
+	hr {
+		margin: 0 auto;
+	}
 }
