@@ -12,11 +12,19 @@ El evento de clic en el icono se gestiona mediante JavaScript para activar la de
 
 ```html
 <a id="downloadLink">
-    <span>Download Resume</span>
+    <span class = "DL">Download Resume</span>
     <i class="downloadBtn" data-feather="download" width="18" height="14"></i>
 </a>
 ```
-
+- Codigo JS para el boton Download
+```js
+document.querySelector('.downloadBtn').addEventListener('click', function() {
+    var downloadLink = document.createElement('a');
+    downloadLink.href = './assets/cv.pdf';
+    downloadLink.download = 'Miguel_Ardila_CV.pdf';
+    downloadLink.click();
+});
+```
 ---
 ### Hecho con ❤️ por [Miguel Ardila][projects]
 
