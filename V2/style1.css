@@ -33,14 +33,14 @@ a {
 /* Referencias */
 .description {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     color: var(--text-color)
 }
  .title {
     color: var(--priary-color);
     font-weight: 700%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
  }
  .ref_item {
@@ -131,10 +131,15 @@ a {
     align-items: flex-start;
 }
 
+.description_profile_description {
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+
 .profile_name_firstName {
     color: white;
     font-weight: 200;
-    font-size: clamp(2rem, 8vw, 3rem);
+    font-size: clamp(2rem, 8vw, 2.8rem);
     text-transform: uppercase;
     display: block;
     margin-bottom: -0.8rem;
@@ -142,7 +147,7 @@ a {
 .profile_name_lastName {
     color: var(--priary-color);
     font-weight: 700;
-    font-size: clamp(2.5rem, 15vw, 4rem);
+    font-size: clamp(2.5rem, 15vw, 3.2rem);
     text-transform: uppercase;
     display: block;
 }
@@ -160,18 +165,17 @@ a {
 .downloadBtn span {
     font-size: 1.6rem; /* Ajusta el tamaño del texto aquí */
 }
-
-
 .downloadBtn i {
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
 }
-
-
 .downloadBtn:hover {
     color: var(--priary-color);
+}
+.DR {
+    font-size: 1.4rem;
 }
 @media only screen and (min-width: 768px){
     .profile_container {
@@ -185,6 +189,7 @@ a {
     margin-left: 2rem;
     line-height: 2;
     color: var(--text-color);
+    font-size: 1.3rem;
 }
 
 /* certification */
