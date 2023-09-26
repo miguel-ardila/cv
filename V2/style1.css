@@ -151,9 +151,6 @@ a {
     position: relative;
 }
 
-.downloadBtn span {
-    font-size: 1.6rem; /* Ajusta el tamaño del texto aquí */
-}
 .downloadBtn i {
     position: absolute;
     right: 0;
