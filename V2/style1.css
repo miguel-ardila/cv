@@ -79,7 +79,7 @@ a {
     margin: 0 auto;
     display: grid;
     padding: 5rem;
-    background: #070707;
+    background: #0c0c0c;
     grid-template-columns: 2fr 2fr;
     gap: 4rem;
 }
@@ -103,18 +103,7 @@ a {
     flex-direction: column;
     gap: 5rem;
 }
-.group-3 {
-    max-width: 700px;
-    width: 100%;
-    margin: 0 auto;
-    grid-column: 1/-1;
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-}
-.group-3 > div {
-    flex: 1;
-}
+
 @media only screen and (max-width: 768px) {
     .profile {
         margin-bottom: 0;
