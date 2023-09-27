@@ -92,7 +92,6 @@ a {
     }
 }
 
-
 .profile {
     grid-column: 1 /-1;
     margin-bottom: 2rem;
@@ -107,10 +106,7 @@ a {
 @media only screen and (max-width: 768px) {
     .profile {
         margin-bottom: 0;
-    }
-    .group-3 {
-        flex-direction: column;
-    }
+    } 
 }
 
 /* profile */
