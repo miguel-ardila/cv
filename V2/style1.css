@@ -71,6 +71,9 @@ a {
 .edu_item {
     margin-top: 2rem;
 }
+.certificado {
+    font-size: 1.5rem;
+}
 
 /* layouts */
 .container {
@@ -103,11 +106,25 @@ a {
     gap: 5rem;
 }
 
+.group-3 {
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+	grid-column: 1/-1;
+	display: flex;
+	flex-direction: row;
+	gap: 5rem;
+}
+.group-3 > div {
+	flex: 1;
+}
+
 @media only screen and (max-width: 768px) {
     .profile {
         margin-bottom: 0;
     } 
 }
+
 
 /* profile */
 .profile_container {
@@ -205,7 +222,7 @@ a {
 
 hr {
 	grid-column: 1/-1;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 5rem;
 	margin-bottom: 1rem;
