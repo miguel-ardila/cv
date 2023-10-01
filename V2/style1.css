@@ -22,7 +22,7 @@ body {
 
 /* estilo imagen */
 img {
-    width: 40%;
+    width: 100%;
     border-radius: 50%;
 }
 a {
@@ -43,15 +43,6 @@ a {
     font-size: 1.8rem;
     text-transform: uppercase;
  }
- .ref_item {
-    margin-top: 2rem;
-}
-.ref_name {
-    font-size: 1.6rem;
-    font-weight: 700;
-}
-
- /* Educacion */
  .item_preTitle {
     font-size: 1.4rem;
     color: var(--text-color);
@@ -68,6 +59,11 @@ a {
     color: var(--text-color);
     font-weight: 400;
 }
+
+
+
+ /* Educacion */
+
 .edu_item {
     margin-top: 2rem;
 }
@@ -103,6 +99,7 @@ a {
     grid-column: 1 /-1;
     margin-bottom: 2rem;
 }
+
 .expertise,
 .experience {
     display: flex;
@@ -127,10 +124,14 @@ a {
     .profile {
         margin-bottom: 0;
     } 
+    .group-3 {
+        flex-direction: column;
+    }
 }
 
 
 /* profile */
+
 .profile_container {
     display: flex;
     gap: 2rem;
@@ -142,6 +143,9 @@ a {
     font-size: 1.4rem;
 }
 
+.profile_profileImg {
+    max-width: 250px;
+}
 .profile_name_firstName {
     color: white;
     font-weight: 200;
@@ -194,11 +198,14 @@ a {
     color: var(--text-color);
     font-size: 1.3rem;
 }
-
-/* certification */
-.certification_item{
+.ref_item {
     margin-top: 2rem;
 }
+.ref_name {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
 /* exp */
 .exp_item {
     margin-top: 2rem;
