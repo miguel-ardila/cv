@@ -11,7 +11,7 @@
 }
 
 html {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 body {
@@ -49,30 +49,16 @@ a {
     font-weight: 300;
  }
 .item_title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: white;
     font-weight: 500;
-    margin: 0.8rem 0;
+    margin: 0.5rem 0;
+    margin-top: 2rem;
 }
 .item_subtitle {
     font-size: 1.4rem;
     color: var(--text-color);
     font-weight: 400;
-}
-
-
-
- /* Educacion */
-
-.edu_item {
-    margin-top: 2rem;
-}
-.certificado {
-    font-size: 1.5rem;
-}
-
-.certificado:hover {
-    color: var(--priary-color);
 }
 
 /* layouts */
@@ -86,7 +72,7 @@ a {
     grid-template-columns: 2fr 2fr;
     gap: 4rem;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
     .header{
         width: 100%;
         grid-template-columns: 1fr;
@@ -120,7 +106,7 @@ a {
 	flex: 1;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .profile {
         margin-bottom: 0;
     } 
@@ -129,13 +115,30 @@ a {
     }
 }
 
+ /* Educacion */
+
+.edu_item {
+    margin-top: 0.7rem;
+}
+.edu {
+    margin-top: 0.1rem;
+}
+.certificado {
+    font-size: 1.4rem;
+}
+
+.certificado:hover {
+    color: var(--priary-color);
+}
+
+
 
 /* profile */
 
 .profile_container {
     display: flex;
     gap: 2rem;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .description_profile_description {
@@ -184,13 +187,13 @@ a {
 .DR {
     font-size: 1.4rem;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 900px){
     .profile_container {
         flex-direction: column;
     }
 }
 
-/* Expertise */
+/* tecnologias */
 .skills_list {
     margin-top: 1rem;
     margin-left: 2rem;
@@ -198,12 +201,14 @@ a {
     color: var(--text-color);
     font-size: 1.3rem;
 }
+
+/* Referencias */
 .ref_item {
-    margin-top: 2rem;
+	margin-top: 2rem;
 }
 .ref_name {
-    font-size: 1.6rem;
-    font-weight: 700;
+	font-size: 1.4rem;
+	font-weight: 700;
 }
 
 /* exp */
@@ -213,11 +218,11 @@ a {
 
 /* Enlaces */
 .social_items {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 .social_item {
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    font-size: 1.4rem;
     display: flex;
     gap: 0.5rem;
     align-items: center;
@@ -235,12 +240,12 @@ hr {
 	grid-column: 1/-1;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 5rem;
+	margin-top: 1rem;
 	margin-bottom: 1rem;
 	border: none;
 	border-top: 2px solid rgba(128, 128, 128, 0.229);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 	hr {
 		margin: 0 auto;
 	}
